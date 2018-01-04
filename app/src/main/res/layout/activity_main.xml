@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context="cn.edu.zknu.reincarnationsystemapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎进入自助投胎"
+        android:textSize="28sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/tipColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btn_wantrein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:text="我要投胎"
+        android:textColor="@color/btntextColor"
+        android:textSize="20sp"
+        android:background="@color/btnbgColor" />
+    <Button
+        android:id="@+id/btn_store"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:text="商城"
+        android:textSize="16sp"
+        android:textColor="@color/buybtnColor"
+        android:background="@color/btnbgColor"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tipColor">#FF000000</color>
+    <color name="btnbgColor">#df09a6</color>
+    <color name="btntextColor">#FFFFFF</color>
+    <color name="buybtnColor">#FF000000</color>
+    <color name="skipColor">#FFFF0000</color>
+    <color name="bagColor">#FFFFD900</color>
+</resources>

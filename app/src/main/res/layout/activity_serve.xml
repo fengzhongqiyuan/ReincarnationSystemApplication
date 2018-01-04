@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*投胎币可以用来购买所有投胎产品及道具"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*1投胎币=1元人民币"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="*投胎币仅能用于兑换此投胎系统的产品和服务，不能兑换现金，不能进行转账交易，不能兑换投胎系统外的产品和服务。"
+        android:textSize="16sp"/>
+</LinearLayout>
